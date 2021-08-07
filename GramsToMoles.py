@@ -1,6 +1,6 @@
-x = int(input("Amount of material: "))
+x = float(input("Amount of material: "))
 y = input("(M)ole or (G)ram: ")
-v = int(input("How many molecules are there in the atom: "))
+v = float(input("How many molecules are there in the atom: "))
 elements = { 
     "H" : 1.0079,
     "He" : 4.0026,
